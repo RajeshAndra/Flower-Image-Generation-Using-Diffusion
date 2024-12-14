@@ -11,7 +11,7 @@ In this project, I explore the generation of flower images using diffusion model
 - **Oxford Flower Dataset**: The model is trained using the **Oxford Flower Dataset**, containing 8,189 images of flowers across 102 categories.
 - **Optimized Training Pipeline**: Utilizes cosine learning rate scheduling, Adam optimizer, and noise variance scheduling for stable and efficient training.
 - **Performance Metrics**: Evaluation of the model using FID (Fréchet Inception Distance) and PSNR (Peak Signal-to-Noise Ratio).
-
+- **References**: [Google Colab Notebook](https://colab.research.google.com/github/huggingface/notebooks/blob/main/examples/annotated_diffusion.ipynb)
 ## Installation
 
 ### Prerequisites:
