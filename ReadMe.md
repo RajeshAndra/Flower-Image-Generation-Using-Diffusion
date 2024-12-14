@@ -36,8 +36,6 @@ cd Flower-Image-Generation-Using-Diffusion
 The model is trained on the **Oxford Flower Dataset**, which contains over 8,000 flower images categorized into 102 classes. You can download the dataset from the official website:  
 [Oxford Flower Dataset](https://www.robots.ox.ac.uk/~vgg/data/flowers/)
 
-Once downloaded, place the dataset in the `/data` directory.
-
 ## Model Architecture
 
 The diffusion model utilizes a **U-Net architecture** designed for image generation tasks. Key components of the architecture include:
@@ -82,3 +80,12 @@ The trained model successfully generates realistic and diverse flower images, ex
 - **Higher Resolution Generation**: Increase the image resolution to 256x256 or 512x512 for more detailed outputs.
 - **Generative Diversity**: Further training and refinement to increase diversity and reduce image similarity.
 - **Optimization**: Enhance training efficiency to reduce computational cost and improve resolution quality.
+
+## Sample Images
+
+<div style="text-align: center;">
+
+<img src="Images/image.png" alt="Sample Image 1" width="600">
+
+<img src="Images/image1.png" alt="Sample Image 2" width="600">
+</div>
